@@ -6,7 +6,7 @@ import { Gif, SearchResponse } from '../interfaces/gifs.interface';
 export class GifsService {
 
   private _tagHistory: string[] = [];
-  private apiKey: string = 'NPlwa8XiLCRceaPbHGK6fnGYoN8RlV8o';
+  private apiKey: string = 'PUT YOUR API KEY HERE';
   private serviceUrl: string = 'https://api.giphy.com/v1/gifs/';
   public gifList!: Gif[];
 
